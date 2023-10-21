@@ -67,13 +67,17 @@ nav{
     height: calc(100% - 15%);
     margin-left: 50px;
     margin-top: 20px;
-    padding-top: 180px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.img-box{
+    padding-top: 150px;
     white-space: nowrap;
-    /* display: flex; */
     overflow-x: auto;
     overflow-y: hidden;
 }
-#center-doe .box{
+#center-doe .img-box .box{
     display: inline-block;
     font-family: gilroy;
     width: 280px;
@@ -160,14 +164,14 @@ nav{
     margin-right: 30px;
 }
 #center-doe .car4 img{
-    width: 100%;
+    width: 120%;
     object-fit: cover;
     margin-left: 45px;
     object-position: center;
-    margin-top: -100px;
+    margin-top: -122px;
 }
 #center-doe .car4 h1{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 #center-doe .car4 h4{
     margin-bottom: 20px;
@@ -203,7 +207,7 @@ nav{
     font-family: gilroy;
     width: 280px;
     height: 280px;
-    background: linear-gradient(to top right,brown,rgb(238, 126, 126));
+    background: linear-gradient(to top right,rgb(80, 21, 21),rgb(238, 126, 126));
     border-radius: 50px;
     padding: 35px;
     margin-top: 10px;
@@ -222,4 +226,43 @@ nav{
 #center-doe .car6 h4{
     margin-bottom: 20px;
     font-weight: 500;
+}
+footer{
+    font-family: gilroy;
+    width: 95%;
+    padding: 4px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 auto; */
+    margin-top: 160px;
+}
+footer .foot-left{
+    display: flex;
+    gap: 140px;
+    align-items: center;
+    opacity: .6;
+    cursor: pointer;
+}
+footer .foot-right{
+    display: flex;
+    gap: 60px;
+}
+footer .foot-right .fo-ri-la{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer .foot-right .fo-ri-la i{
+    font-size: 30px;
+}
+footer .foot-right .fo-ri-ri{
+    cursor: pointer;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+footer .foot-right .fo-ri-ri i{
+    font-size: 30px;
 }
