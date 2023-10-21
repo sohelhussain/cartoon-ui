@@ -1,0 +1,225 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+#main{
+width: 100%;
+overflow: hidden;
+}
+#container-first{
+height: 100vh;
+width: 100%;
+}
+nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.left img{
+    width: 30%;
+    margin-left: 30px;
+    filter: grayscale(.5);
+}
+.left h1{
+    font-family: gilroy;
+    font-size: 35px;
+    opacity: .7;
+}
+.center{
+    background-color: #dadada;
+    padding: 12px 22px;
+    border-radius: 50px;
+}
+.center input{
+    border: none;
+    background-color: transparent;
+}
+.center input:placeholder{
+    font-size: 20px;
+
+}
+.center input:focus{
+    outline: none;
+    border: none;
+}
+.right{
+    margin-right: 30px;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+#center-doe{
+    width: 100%;
+    height: calc(100% - 15%);
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 180px;
+    white-space: nowrap;
+    /* display: flex; */
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#center-doe .box{
+    display: inline-block;
+    font-family: gilroy;
+    width: 280px;
+    height: 300px;
+    background: linear-gradient(to top right,#FF9D00 ,#f9cf8b);
+    border-radius: 50px;
+    padding: 35px;
+    color: white;
+    margin-right: 30px;
+}
+#center-doe .box img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -150px;
+}
+#center-doe .box h1{
+    margin-top: 40px;
+}
+#center-doe .box h4{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#center-doe .box:nth-child(2){
+    display: inline-block;
+    font-family: gilroy;
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(to top right,#ff4d0c,#ff3fef);
+    border-radius: 50px;
+    padding: 35px;
+    margin-top: 10px;
+    color: white;
+    margin-right: 30px;
+}
+#center-doe .car2 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -180px;
+}
+#center-doe .car2 h1{
+    margin-top: 25px;
+}
+#center-doe .car2 h4{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#center-doe .box:nth-child(3){
+    display: inline-block;
+    font-family: gilroy;
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(to top right,#1D91BF,#c2eeff);
+    border-radius: 50px;
+    padding: 35px;
+    margin-top: 10px;
+    color: white;
+    margin-right: 30px;
+}
+#center-doe .car3 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -180px;
+}
+#center-doe .car3 h1{
+    margin-top: 25px;
+}
+#center-doe .car3 h4{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#center-doe .box:nth-child(4){
+    display: inline-block;
+    font-family: gilroy;
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(to top right,rgb(198, 30, 30),rgb(239, 113, 113));
+    border-radius: 50px;
+    padding: 35px;
+    margin-top: 10px;
+    color: white;
+    margin-right: 30px;
+}
+#center-doe .car4 img{
+    width: 100%;
+    object-fit: cover;
+    margin-left: 45px;
+    object-position: center;
+    margin-top: -100px;
+}
+#center-doe .car4 h1{
+    margin-top: 40px;
+}
+#center-doe .car4 h4{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#center-doe .box:nth-child(5){
+    display: inline-block;
+    font-family: gilroy;
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(to top right,rgb(29, 120, 218),rgb(113, 235, 239));
+    border-radius: 50px;
+    padding: 35px;
+    margin-top: 10px;
+    color: white;
+    margin-right: 30px;
+}
+#center-doe .car5 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -153px;
+}
+#center-doe .car5 h1{
+    margin-top: 40px;
+}
+#center-doe .car5 h4{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+#center-doe .box:nth-child(6){
+    display: inline-block;
+    font-family: gilroy;
+    width: 280px;
+    height: 280px;
+    background: linear-gradient(to top right,brown,rgb(238, 126, 126));
+    border-radius: 50px;
+    padding: 35px;
+    margin-top: 10px;
+    color: white;
+    margin-right: 30px;
+}
+#center-doe .car6 img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    margin-top: -123px;
+}
+#center-doe .car6 h1{
+    margin-top: 40px;
+}
+#center-doe .car6 h4{
+    margin-bottom: 20px;
+    font-weight: 500;
+}
